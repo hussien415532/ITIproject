@@ -8,7 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CartComponent } from './components/cart/cart.component';
 import { SingleProductComponent } from './components/single-product/single-product.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import { AddProductComponent } from './components/add-product/add-product.component';
+
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -20,7 +20,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CartComponent,
     SingleProductComponent,
     NotFoundComponent,
-    AddProductComponent,
     SpinnerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule,FormsModule,ReactiveFormsModule],
